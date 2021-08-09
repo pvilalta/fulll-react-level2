@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | List | index should render component 1`] = `
+<div>
+  <div
+    class="List"
+  >
+    <a
+      rel="noreferrer"
+      target="_blank"
+    >
+      <div
+        class="user"
+      >
+        <div
+          class="userImage"
+        >
+          <img
+            alt="avatar of frodon"
+          />
+        </div>
+        <div
+          class="userInfo"
+        >
+          <span
+            class="userName"
+          >
+            frodon
+          </span>
+          <span
+            class="userID"
+          >
+            479213
+          </span>
+        </div>
+      </div>
+    </a>
+    <a
+      rel="noreferrer"
+      target="_blank"
+    >
+      <div
+        class="user"
+      >
+        <div
+          class="userImage"
+        >
+          <img
+            alt="avatar of sam"
+          />
+        </div>
+        <div
+          class="userInfo"
+        >
+          <span
+            class="userName"
+          >
+            sam
+          </span>
+          <span
+            class="userID"
+          >
+            479214
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | App | index should render component 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="SearchBar"
+      >
+        <form>
+          <div
+            class="searchBarBox"
+          >
+            <div
+              class="searchBarTitle"
+            >
+              <label
+                for="searchBar"
+              >
+                <span
+                  class="searchBarTitleContent"
+                >
+                  Github profile finder
+                </span>
+              </label>
+            </div>
+            <div
+              class="searchBarInput"
+            >
+              <input
+                data-testid="searchBar"
+                id="searchBar"
+                name="searchBar"
+                placeholder="Search..."
+                type="text"
+                value=""
+              />
+            </div>
+            <button
+              type="submit"
+            />
+          </div>
+        </form>
+        <div
+          class="infoBox"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

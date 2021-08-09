@@ -1,0 +1,27 @@
+.ErrorHandler {
+  width: 40%;
+  border: 3px solid red;
+  border-radius: 25px;
+  background-color: #01aa76;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ErrorHandler span {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 960px) {
+  .ErrorHandler {
+    width: 60%;
+  }
+
+  .ErrorHandler div {
+    font-size: 0.5em;
+  }
+}

@@ -1,0 +1,64 @@
+.List {
+  background-color: #dad0d0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  border-bottom-left-radius: 42px;
+  border-bottom-right-radius: 42px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.user {
+  background-color: white;
+  width: 14em;
+  margin: 1em 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  border-radius: 42px / 41px;
+}
+
+.userImage img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.userInfo span {
+  font-family: 'Ubuntu', sans-serif;
+  width: 8em;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.userName {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.userID {
+  font-size: 0.8em;
+  font-weight: 300;
+  text-align: center;
+}

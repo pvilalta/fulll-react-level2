@@ -1,0 +1,80 @@
+.SearchBar {
+  height: 30%;
+  background-color: #01aa76;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 42px;
+  border-top-right-radius: 42px;
+}
+
+.searchBarTitle {
+  margin-bottom: 1em;
+}
+
+.searchBarTitleContent {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  color: white;
+}
+
+input[type='text'] {
+  width: 40%;
+  height: 2em;
+  border: 3px solid white;
+  border-radius: 25px;
+  background-color: #01aa76;
+  color: white;
+  font-size: 1.8em;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+input[type='text']::placeholder {
+  color: white;
+  font-size: 0.8em;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.infoBox {
+  width: 40%;
+  min-height: 3em;
+  margin: 1em auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 960px) {
+  input[type='text'] {
+    width: 70%;
+    font-size: 1em;
+  }
+  .searchBarTitleContent {
+    font-size: 1em;
+  }
+
+  input[type='text']::placeholder {
+    font-size: 0.9em;
+  }
+
+  .errorMessage {
+    width: 40%;
+  }
+
+  .errorMessage div {
+    font-size: 0.5em;
+  }
+}
+
+button {
+  display: none;
+}
